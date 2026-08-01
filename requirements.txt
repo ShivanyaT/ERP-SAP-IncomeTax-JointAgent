@@ -1,0 +1,32 @@
+# SAP GUI + Windows automation (no compilation needed, pure Windows)
+pywinauto==0.6.8
+pywin32==308
+
+# Data processing
+pandas==3.0.3
+openpyxl==3.1.2
+
+# LLM (Groq)
+groq==0.9.0
+
+# Report generation
+jinja2==3.1.4
+weasyprint==62.3
+
+# Utilities
+python-dotenv==1.0.1
+loguru==0.7.2
+
+# Process detection (for SAP launch check)
+psutil==5.9.8
+
+# PDF generation (replaces WeasyPrint — needs wkhtmltopdf installed separately)
+pdfkit==1.0.0
+
+# Web chat UI
+flask==3.0.3
+flask-cors==4.0.1
+
+# Web UI
+flask==3.0.3
+flask-cors==4.0.1
